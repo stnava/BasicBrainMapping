@@ -78,3 +78,8 @@ $reg -d $dim -r [ $imgs ,1]  \
                        -o [${nm},${nm}_diff.nii.gz,${nm}_inv.nii.gz]
 
 ${AP}antsApplyTransforms -d $dim -i $f -r $m -n linear -t ${nm}1Warp.nii.gz -t ${nm}0GenericAffine.mat -o ${nm}_warped.nii.gz --float 1 
+
+ExtractSliceFromImage 3 data/T1_lesioned.nii.gzz temp.nii.gz 1 120
+ConvertImagePixelType temp.nii.gz T1_lesioned.jpg 1
+ExtractSliceFromImage 3 BBM_warped.nii.gz temp.nii.gz 1 120
+ConvertImagePixelType temp.nii.gz Template2T1_lesioned.jpg 1
