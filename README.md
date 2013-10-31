@@ -7,8 +7,6 @@ We use a brain mask to restrict the registration focus
 
 Similar strategies may be used for brains with missing data e.g. lesions 
 
-Both cases are illustrated in this example.
-
-
+Both cases are illustrated in this [example script](https://github.com/stnava/BasicBrainMapping/blob/master/bbm.sh).
 
 
