@@ -9,6 +9,7 @@ Similar strategies may be used for brains with missing data e.g. lesions
 
 See this [example script](https://github.com/stnava/BasicBrainMapping/blob/master/bbm.sh).
 
+and also ( thanks to Dorian Pustina @dpustina ) this [real data example](https://github.com/stnava/BasicBrainMapping/blob/master/bbm2.sh).
 
 ![T1_lesioned](https://raw.github.com/stnava/BasicBrainMapping/master/T1_lesioned.jpg?raw=true)
 ![Template2T1_lesioned](https://raw.github.com/stnava/BasicBrainMapping/master/Template2T1_lesioned.jpg?raw=true)
